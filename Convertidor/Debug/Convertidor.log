@@ -1,0 +1,11 @@
+﻿  ConverterDLL.c
+C:\Users\chuch\source\repos\Convertidor\Convertidor\ConverterDLL.c(10,31): warning C4273: 'asciiBinaryToInt': vinculación de DLL incoherente
+C:\Users\chuch\source\repos\Convertidor\Convertidor\ConverterDLL.h(11,22): message : vea la definición anterior de 'asciiBinaryToInt'
+C:\Users\chuch\source\repos\Convertidor\Convertidor\ConverterDLL.c(26,28): warning C4273: 'asciiHEXToInt': vinculación de DLL incoherente
+C:\Users\chuch\source\repos\Convertidor\Convertidor\ConverterDLL.h(12,22): message : vea la definición anterior de 'asciiHEXToInt'
+C:\Users\chuch\source\repos\Convertidor\Convertidor\ConverterDLL.c(32,9): warning C4013: 'printf' sin definir; se supone que extern devuelve como resultado int
+C:\Users\chuch\source\repos\Convertidor\Convertidor\ConverterDLL.c(52,31): warning C4273: 'asciiToDouble': vinculación de DLL incoherente
+C:\Users\chuch\source\repos\Convertidor\Convertidor\ConverterDLL.h(13,25): message : vea la definición anterior de 'asciiToDouble'
+     Creando biblioteca C:\Users\chuch\source\repos\ConvertAplicacion\Debug\Convertidor.lib y objeto C:\Users\chuch\source\repos\ConvertAplicacion\Debug\Convertidor.exp
+ConverterDLL.obj : error LNK2019: símbolo externo _printf sin resolver al que se hace referencia en la función _asciiHEXToInt
+C:\Users\chuch\source\repos\ConvertAplicacion\Debug\Convertidor.dll : fatal error LNK1120: 1 externos sin resolver
